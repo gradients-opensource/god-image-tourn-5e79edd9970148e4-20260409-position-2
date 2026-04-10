@@ -1,0 +1,27 @@
+{
+    "default": {},
+    "data": {
+        "6445f395eb2cbcb40cec7bda29dd19c6ee0beb4660ee5fbc2556ed35920cd6b2": {},
+        "a6d3e66c487e7e7fa7ce6b5b1753a39efe2c0d2eca5a9e4752703227dd408b69": {
+            "unet_lr": 0.00005,
+            "text_encoder_lr": [
+                0.000005,
+                0.000005
+            ]
+        },
+        "47173b2141dd5aa99d2c1de9208b092e81905789d238a29d092f007e75726ce3": {
+            "max_train_steps": 240,
+            "network_alpha": 128,
+            "optimizer_args": [
+                "weight_decay=0.01",
+                "betas=(0.9,0.99)"
+            ],
+            "text_encoder_lr": [
+                0.000005,
+                0.000005
+            ],
+            "unet_lr": 0.00005
+        },
+        "00f8fa962a24d797b9a09be9886ec37bfaf613c98a420d303d220040f65b3eed": {}
+    }
+}

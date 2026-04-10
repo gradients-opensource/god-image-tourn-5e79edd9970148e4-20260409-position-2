@@ -1,0 +1,3216 @@
+{
+    "default": {},
+    "data": {
+        "eb324bfcad14e8f1d46346f46ae7af7d3e58c3babbc1f699ee7c61baab291369": {
+            "xs": {
+                "max_train_epochs": 28,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 24,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "b89415872c1864f2a6ccccb34d6744021aa58eec13ab9109d4fa53931156ead4": {
+            "xs": {
+                "max_train_epochs": 40,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 35,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 30,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 26,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.8e-05,
+                "text_encoder_lr": 1.9e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 150,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.033,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "f0beb2d95bfe25352803339af6c50e45e43f6a36125f42c69e5b8fe8b6e07462": {
+            "xs": {
+                "max_train_epochs": 48,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 40,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 40,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.01,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 38,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "f61cef4efcc21d26c0257cd9884a1b67c019d786092dfa4bc0b1ef4ed8869d80": {
+            "xs": {
+                "max_train_epochs": 32,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 27,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 21,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 35,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 9,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "756995ded1a0cd274a3cf4bdb5df47926993806cc19bed0a808a4a211545ab95": {
+            "xs": {
+                "max_train_epochs": 50,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "162748f97994bc2ffaafdcfd900e06e245e85a9826fb77aa8568846fb6b3f15d": {
+            "xs": {
+                "max_train_epochs": 50,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.5e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 48,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 38,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 28,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 18,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "84b1be29d81de0bf88d6c4033943d2bc4b543d9ebba9e1c9678296237f147466": {
+            "xs": {
+                "max_train_epochs": 32,
+                "train_batch_size": 4,
+                "unet_lr": 2.4e-05,
+                "text_encoder_lr": 2.4e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 15,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.038,
+                "noise_offset_type": "Original",
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 28,
+                "train_batch_size": 4,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 2.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.045,
+                "noise_offset_type": "Original",
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 26,
+                "train_batch_size": 6,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 3.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 30,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.048,
+                "noise_offset_type": "Original",
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 3e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0411,
+                "noise_offset_type": "Original",
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 16,
+                "train_batch_size": 10,
+                "unet_lr": 4.2e-05,
+                "text_encoder_lr": 4.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.058,
+                "noise_offset_type": "Original",
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "a39c9825466ea06cd71c5db75963783dba07b2d2a02b9aac21452c3762493c8f": {
+            "xs": {
+                "max_train_epochs": 39,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.31e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 40,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "loss_type": "huber",
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "constant",
+                "lr_warmup_steps": 0,
+                "min_snr_gamma": 5.0,
+                "noise_offset": 0.05,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.0015",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 45,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "loss_type": "huber",
+                "unet_lr": 3.3e-05,
+                "text_encoder_lr": 1.7e-06,
+                "lr_scheduler": "constant",
+                "lr_warmup_steps": 0,
+                "min_snr_gamma": 5.0,
+                "noise_offset": 0.05,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.0015",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.78e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "7d6474f05dc6940ad31182d1359e7f6390dfa92a0cbae20597bfd86d415bd0fd": {
+            "xs": {
+                "max_train_epochs": 48,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.5e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 45,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 36,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 26,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 16,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "9177dab379e14f76c500ad2246352fd9387f11e2f57e2973bf9ada4d7cd4c962": {
+            "xs": {
+                "max_train_epochs": 45,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.6e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 30,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.15,
+                "huber_c": 0.1,
+                "huber_schedule": "snr",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 33,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 26,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "f04d4cd944ff8ff03dda0ad75ae479cde3402e6eb2ac9ebd1b170b59f59b21ac": {
+            "xs": {
+                "max_train_epochs": 38,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "e4308bdead0e824ea25e37c6caf771f231428975d33316496452c56a34757409": {
+            "xs": {
+                "max_train_epochs": 43,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.6e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 30,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.15,
+                "huber_c": 0.1,
+                "huber_schedule": "snr",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "a74734bd059b67f654909604bbe57cce7802cf41ce7cf269252366c62b2c8bf6": {
+            "xs": {
+                "max_train_epochs": 36,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.31e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.08,
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 30,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.94e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 40,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.05,
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 24,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.36e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 65,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.08,
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00008",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 16,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.78e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 90,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.05,
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00008",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 10,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.05,
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00008",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "c6efeaf411754e65b3e2395640d5f90ac6150a1d82e4b3caf8df566aa406609c": {
+            "xs": {
+                "max_train_epochs": 48,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.5e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 45,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 36,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 26,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 16,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "d90d3201d5b2ca617d1b34ddc57d124b19d33b98cf1e653299b9b6c849acb69b": {
+            "xs": {
+                "max_train_epochs": 32,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 27,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 21,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 15,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 9,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "87a20676586c53891563895be0408c6109b83f1d891700dd6ff6c02a25cd6c47": {
+            "xs": {
+                "max_train_epochs": 52,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 52,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 40,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 30,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 20,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "158598455e814319c65ccbf8bbae049200601b2ac4fb1429fed6158f2f5ac8bd": {
+            "xs": {
+                "max_train_epochs": 38,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 24,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 35,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.0e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "d6d232a2821b3708d356d95aa0b8cd553d54fde4a083d0d32f2718fafc5b134c": {
+            "xs": {
+                "max_train_epochs": 30,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 27,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.4e-05,
+                "text_encoder_lr": 2.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 21,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 2.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 14,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 3.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 8,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 3.6e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "a1fd5a9d0707d1b96b7738c4c48894f95e8ddbaa840d5aa85a3a03671479894c": {
+            "xs": {
+                "max_train_epochs": 20,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 8,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 20,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 8,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 20,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 8,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 20,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 8,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 20,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 8,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "2b2d23c68c5429f8108bb6f80e20cc08bbed1d3210bbba21bd674a767e2695b1": {
+            "xs": {
+                "max_train_epochs": 48,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.5e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 45,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 36,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 26,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 16,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "0b7169dc27a95818a024b479271167dd8bb221ee1cebf58a683378927eb447c3": {
+            "xs": {
+                "max_train_epochs": 50,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.5e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 180,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 1.0,
+                "text_encoder_lr": 1.0,
+                "lr_scheduler": "constant",
+                "lr_warmup_steps": 0,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.05,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "prodigy",
+                "optimizer_args": [
+                    "decouple=True",
+                    "d_coef=1.25",
+                    "weight_decay=0.01",
+                    "use_bias_correction=True",
+                    "safeguard_warmup=True"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 38,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 28,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 18,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "46bc6498a086646889d92058d7e50398177841349bfce3181bdb5846849354b7": {
+            "xs": {
+                "max_train_epochs": 32,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 1,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 28,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 21,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 15,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 9,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "e7d0cc3356bd946337fb5e22fcff6132c7eb363abded9d32a99e42145a90309f": {
+            "xs": {
+                "max_train_epochs": 38,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "7637327a8414801bf0bb4d6d1b574dd95c05525165ee271cc085b64f89c8cba8": {
+            "xs": {
+                "max_train_epochs": 50,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.5e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.032,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.003",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 33,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.94e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 26,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.36e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 19,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.96e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 12,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "6042ce99f9cde5c1a8acfc32dd1b3ba7ac4523aba281c1d9295e1a6d7b98a8e7": {
+            "xs": {
+                "max_train_epochs": 40,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.1,
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 50,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.1,
+                "huber_c": 0.1,
+                "huber_schedule": "snr",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 30,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.0e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.1,
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 24,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.0e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.1,
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 14,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.1,
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "70ff32b896771e2c67412f6a8299e0bf831705bb714af7e810c1466de783cdd0": {
+            "xs": {
+                "max_train_epochs": 52,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 52,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 40,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 1.6000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 30,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.5e-05,
+                "text_encoder_lr": 1.8000000000000001e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 20,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.5e-05,
+                "text_encoder_lr": 1.4e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.01",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "2f2560699519e9904840f4279c6e76e8573819da773ec4b0c6a689e606508be3": {
+            "xs": {
+                "max_train_epochs": 43,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.42e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 46,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-5,
+                "text_encoder_lr": 3e-6,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 40,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0411,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 2,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 27,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.52e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-5,
+                "text_encoder_lr": 3e-6,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0411,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 2,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4.4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "7b4b21f095f261dc26d3c4964a1ddf71dd2e907c5cd733bdb934e7228727b7a6": {
+            "xs": {
+                "max_train_epochs": 36,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 30,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 23,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 17,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 10,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "ad7785f9ff51db0c7e07277f5f3cc474217158f242cc44a58581f56f28017c7d": {
+            "xs": {
+                "max_train_epochs": 30,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.09e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 25,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.66e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 20,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.04e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 14,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.42e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 8,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.8e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "a51427f9147c3c672edacd0c1070443e50d28df4c6f7d04cd7038fb68f1e8952": {
+            "xs": {
+                "max_train_epochs": 25,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-5,
+                "text_encoder_lr": 3e-6,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0411,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 2,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 25,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-5,
+                "text_encoder_lr": 3e-6,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0411,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 2,
+                "optimizer_type": "adamw"
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3e-5,
+                "text_encoder_lr": 3e-6,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 20,
+                "min_snr_gamma": 7,
+                "noise_offset": 0.0411,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 2,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.8e-05,
+                "text_encoder_lr": 1.9e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.033,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.99)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "27f4574bdd5f1435fb5cc682631d7941776c0cbe0423101b354ef9def60548e5": {
+            "xs": {
+                "max_train_epochs": 43,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.6e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 30,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.15,
+                "huber_c": 0.1,
+                "huber_schedule": "snr",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 20,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 8,
+                "noise_offset": 0.0357,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 2,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=1e-04",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 10,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.6e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 30,
+                "min_snr_gamma": 5,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "caption_dropout_rate": 0.15,
+                "huber_c": 0.1,
+                "huber_schedule": "snr",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 13,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 30,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "34a7aae44aeda3ba98eec73d818a4392a6226b9e00c223af02c105bda649268c": {
+            "xs": {
+                "max_train_epochs": 38,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        },
+        "2ed92e4825a66485b34e0ab64877228dc92628a0ecb10646b761c07570eff91f": {
+            "xs": {
+                "max_train_epochs": 38,
+                "train_batch_size": 4,
+                "gradient_accumulation_steps": 2,
+                "unet_lr": 2.2e-05,
+                "text_encoder_lr": 1e-06,
+                "lr_scheduler": "constant_with_warmup",
+                "lr_warmup_steps": 25,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.02,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00015",
+                    "eps=1e-08"
+                ]
+            },
+            "s": {
+                "max_train_epochs": 32,
+                "train_batch_size": 6,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 2.8e-05,
+                "text_encoder_lr": 1.2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 50,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.025,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.00012",
+                    "eps=1e-08"
+                ]
+            },
+            "m": {
+                "max_train_epochs": 25,
+                "train_batch_size": 8,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.2e-05,
+                "text_encoder_lr": 1.5e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 75,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.03,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 4,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "l": {
+                "max_train_epochs": 18,
+                "train_batch_size": 10,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 3.6e-05,
+                "text_encoder_lr": 1.8e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 100,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.035,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 6,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            },
+            "xl": {
+                "max_train_epochs": 11,
+                "train_batch_size": 12,
+                "gradient_accumulation_steps": 1,
+                "unet_lr": 4e-05,
+                "text_encoder_lr": 2e-06,
+                "lr_scheduler": "cosine",
+                "lr_warmup_steps": 120,
+                "min_snr_gamma": 6,
+                "noise_offset": 0.04,
+                "noise_offset_type": "Original",
+                "max_data_loader_n_workers": 8,
+                "optimizer_type": "adamw",
+                "optimizer_args": [
+                    "betas=(0.9, 0.999)",
+                    "weight_decay=0.0001",
+                    "eps=1e-08"
+                ]
+            }
+        }
+    }
+}
